@@ -1,0 +1,300 @@
+.currency{
+    position: relative;
+}
+.currency_left{
+    position: absolute; 
+    left: 18%;
+    top: 200px;
+}
+.coinHomes_acquire_light_text{
+    color: #616161;
+}
+.currency_left_title{
+    font-family: "NeueMontreal-Medium";
+    font-size: 80px;
+    color: #000;
+    /* width: 70%; */
+    padding-right: 428px;
+}
+.currency_left_text{
+    color: #000;
+    margin-top: 50px;
+    font-size: 16px;
+    width: 55%;
+}
+
+.purchase_box{
+    border-radius: 25px;
+    margin-top: 40px;
+    width: 55%;
+    background-color: #fff;
+    color: #000 !important;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+}
+.purchase_box .form-label {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.home_purchase_btn_currency{
+    color: #000;
+    border: none;
+    background-color: #fff;
+}
+.home_purchase_btn_currency:hover{
+    color: #000;
+}
+.existing_home_btn_currency{
+    color: #616161;
+    border: none;
+    background-color: #fff;
+}
+.existing_home_btn_currency:hover{
+    color: #000;
+}
+.currency_home_select_box{
+    border-radius: 0;
+    color: #000;
+}
+.currency_input_filds_prepand{
+    background-color: transparent;
+    border: none;
+    line-height: 1.4;
+    display: none;
+}
+.currency_get_started_btn{
+    margin-top: 30px;
+    border-radius: 100%;
+    background-color: #39ad8b;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 0.400rem 0.55rem;
+    position: relative;
+}
+.purchase_box .amount .form-control:disabled, .purchase_box .amount .form-control[readonly]{
+    background-color: transparent;
+}
+.purchase_box .amount .input-group>.form-control{
+    padding: 0;
+    font-size: 34px;
+}
+.currency_get_started_btn:before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: -6%;
+    left: 0;
+    transform: skewX(360deg);
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 100%;
+    z-index: 0;
+}
+.currency_get_started_btn:hover{
+    color: #fff;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+.convertimg{
+    width: 27px;
+    height: 25px;
+    object-fit: contain;
+    padding: 0 5px;
+}
+.ammount{
+    width: 23%;
+}
+.currency_bg_left{
+    position: relative;
+    height: 1000px;
+    width: 100%;
+}
+.currency_display_mobile{
+    display: none;
+}
+.location_search{
+    border-color: #000 !important;
+}
+.listing_location .input-group-text{
+    border-color: #000 !important;
+}
+.listing_location .form-control:focus{
+	border-color: #000 !important;
+}
+.select_currency{
+    padding: 5px 5px;
+}
+
+.currency_crypto_list{
+    margin-top: 13px !important;
+    left: -13px;
+    width: 222px !important;
+}
+.currency_select_option{
+    padding: 0.075rem 0.45rem 0.075rem 0.45rem !important;
+    background-color: #F0F0F0;
+    border: none !important;
+}
+.crypto_lable{
+    cursor: pointer;
+}
+
+.purchase_box .amount {
+    border-radius: 10px;
+    padding: 20px 25px;
+    border: 1px solid #ced4da;
+}
+.purchase_box .amount .ammount {
+    width: 50%;
+}
+.purchase_box .amount .form-select {
+    width: auto;
+    padding: 0;
+    font-size: 25px;
+    border: none;
+    margin-left: auto;
+}
+
+.convert-wrapper{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.convert-wrapper .convert {
+    height: 54px;
+    width: 54px;
+    border-left: 1px solid #ced4da;
+    border-right: 1px solid #ced4da;
+}
+
+
+@media screen and (max-width: 1750px){
+    .currency_left{
+        left: 200px;
+    }
+}
+@media screen and (max-width: 1440px){
+    .currency_left{
+        left: 130px;
+        top: 150px;
+    }
+    .currency_left_title{
+        /* width: 70%; */
+        padding-right: 244px;
+        font-size: 60px;
+    }
+    .currency_left_text {
+        width: 67%;
+    }
+    .purchase_box{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 1360px) {
+    .currency_left_title{
+        font-size: 55px;
+    }
+    .currency_left_text{
+        margin-top: 14px;
+    }
+    .currency_get_started_btn{
+        font-size: 14px;
+    }
+    .currency_crypto_list{
+        width: 162px !important;
+    }
+}
+@media screen and (max-width: 1024px){
+    .currency_left{
+        left: 56px;
+        top: 105px;
+    }
+    .currency_left_text{
+        width: 90%;
+    }
+    .currency_get_started_btn {
+        font-size: 13px;
+        margin-top: 35px;
+    }
+    .purchase_box{
+        width: 75%;
+    }
+    .currency_left_title{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:992px) {
+    .currency_display_mobile{
+        display: block;
+    }
+    .currency_display{
+        display: none;
+    }
+    .currency_left{
+        left: 100px;
+
+    }
+    .currency_left_title{
+        padding-right: 0;
+        text-align: center;
+    }
+    .currency_left_text {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .currency_get_started_btn{
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:768px){
+    .purchase_box{
+        width: 94%;
+    }
+    .currency_left{
+        left: 7%;
+        text-align: center;
+    }
+    .currency_left_title{
+        font-size: 65px;
+    }
+}
+@media screen and (max-width:425px){
+    .purchase_box {
+        top: 10%;
+        width: 93%;
+    }
+    .currency_left_title {
+        font-size: 48px;
+        width: 76%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .currency_bg_left {
+        height: 900px;
+    }
+    .currency_left{
+        left: 0%;
+        top: 40px; 
+        text-align: center;
+    }
+    .currency_left_text {
+        width: 83%;
+    }
+    .radio_toolbar label{
+        font-size: 14px !important;
+        margin-right: 0px !important;
+    }
+    .currency_crypto_list{
+        width: 150px !important;
+        padding: 0 1.25rem 0 0.75rem !important;
+    }
+}
+@media screen and (max-width:320px){
+    .purchase_box {
+        top: 53%;
+    }
+}

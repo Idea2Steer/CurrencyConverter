@@ -1,0 +1,144 @@
+body{
+  	margin: 0px;
+  	padding: 0px;
+	font-family: "NeueMontreal-Regular" !important;
+	color: #000 !important;
+	letter-spacing: 0.04em;
+}
+
+
+@font-face {
+	font-family: "NeueMontreal-Bold";
+	src: url("../src/assets/fonts/NeueMontreal-Bold.otf");
+	src: url("../src/assets/fonts/NeueMontreal-Bold.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "NeueMontreal-Light";
+	src: url("../src/assets/fonts/NeueMontreal-Light.otf");
+	src: url("../src/assets/fonts/NeueMontreal-Light.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 10px;
+}
+
+@font-face {
+	font-family: "NeueMontreal-Regular";
+	src: url("../src/assets/fonts/NeueMontreal-Regular.otf");
+	src: url("../src/assets/fonts/NeueMontreal-Regular.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "NeueMontreal-Medium";
+	src: url("../src/assets/fonts/NeueMontreal-Medium.otf");
+	src: url("../src/assets/fonts/NeueMontreal-Medium.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*  =====Custom Scroll Bar=====  */
+
+html::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+html::-webkit-scrollbar-track {
+	background-color: rgb(255, 255, 255);
+}
+
+html::-webkit-scrollbar-thumb {
+	background: #dad8d8;
+	border-radius: 25px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+	background: rgb(146, 144, 144);
+	border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:active {
+	background: rgb(105, 105, 105);
+	border-radius: 10px;
+}
+
+
+/* ===  backgroud colors === */
+.bg_color_EBB767{
+    background-color: #F4B655;
+}
+
+
+/* === Margin === */
+
+.margin_t_100{
+    margin-top: 100px !important;
+}
+.margin_b_100{
+    margin-bottom: 100px !important;
+}
+
+
+/* Titles */
+
+.section_title{
+    font-size: 48px;
+}
+
+
+/* contents */
+.section_text{
+
+}
+.form-control:focus{
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow:none;
+}
+.btn:focus{
+    box-shadow:none;
+    border-color: transparent;
+}
+
+textarea {
+	resize: none;
+ }
+
+.topLogoRegister, .topLogoSignin, .topLogoOtp{
+	width: 200px;
+}
+
+
+ @keyframes slide1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(10px, 0);
+    }
+  }
+
+
+
+
+/* like button section */
+  .like_btn_section{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	cursor: pointer;
+}
+.heart_i {
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 50%;
+	color: #000;
+	background-color: #fff;
+	text-align: center;
+  }
